@@ -138,8 +138,13 @@ a {
 .hero h1,
 .section-title h2,
 .community h2,
-.work-video h2,
-.cta h2 {
+.work-video h2 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  padding-bottom: 40px;
+}
+
+.cta h2{
   font-family: "DM Serif Display", serif;
   font-weight: 400;
 }
@@ -222,7 +227,6 @@ a {
   line-height: 1.04;
 }
 .section-title > p {
-  margin-top: 20px;
   max-width: 650px;
 }
 .story {
@@ -322,6 +326,7 @@ a {
 }
 .comparisons .section-title p {
   color: #f2d7df;
+  margin-bottom: 20px;
 }
 .comparison-grid {
   display: grid;
@@ -368,7 +373,6 @@ a {
   align-items: start;
 }
 .community-copy > p {
-  margin-top: 24px;
   color: #cfcfcf;
   max-width: 680px;
 }
@@ -503,7 +507,7 @@ a {
   width: min(100%, 430px);
   background: var(--cream);
   color: var(--wine-dark);
-  padding: 19px 20px;
+  padding: 10px 8px;
   border-radius: 12px;
   font-weight: 700;
 }
