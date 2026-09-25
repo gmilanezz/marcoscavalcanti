@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Marcos | Nutrição, performance e acompanhamento individual.">
+    <title>Marcos | Nutrição & Performance</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Manrope:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a class="brand" href="#inicio"><img src="assets/logo.jpg" alt="Logo Marcos"></a>
+        <nav class="desktop-nav"><a href="#historia">Sobre mim</a><a href="#resultados">Resultados</a><a
+                href="#relatos">Relatos</a><a href="#comunidade">Comunidade</a><a href="#instagram">Instagram</a></nav>
+        <button class="menu-toggle" id="menuToggle"
+            aria-label="Abrir menu"><span></span><span></span><span></span></button>
+    </header>
+    <div class="menu-overlay" id="menuOverlay"></div>
+    <aside class="mobile-menu" id="mobileMenu" aria-hidden="true"><button class="menu-close"
+            id="menuClose">×</button><img class="mobile-logo" src="assets/logo.jpg" alt="Logo Marcos">
+        <nav><a href="#inicio">Início</a><a href="#historia">Sobre mim</a><a href="#resultados">Resultados</a><a
+                href="#relatos">Relatos</a><a href="#comunidade">Comunidade</a><a href="#instagram">Instagram</a><a
+                href="#contato">Começar</a></nav>
+    </aside>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-copy">
+                <h1 id="typeText" aria-live="polite"></h1><span class="type-cursor"></span>
+                <div class="hero-actions"><a class="button button-light" href="#historia">Saber mais sobre mim</a><a
+                        class="button button-outline" href="#contato">Entrar na comunidade</a></div>
+            </div>
+            <div class="hero-media">
+                <div class="hero-slide active"><img src="assets/fotomarcosacademiasorrindo.jpeg"
+                        alt="Marcos sorrindo na academia"></div>
+                <div class="hero-slide"><img src="assets/lendo.jpg" alt="Marcos lendo"></div>
+                <div class="hero-slide"><img src="assets/correndo.jpg" alt="Marcos correndo"></div>
+                <div class="hero-slide"><img src="assets/treinando.jpg" alt="Marcos treinando"></div>
+                <span class="media-index" id="mediaIndex">01 / 04</span>
+            </div>
+        </section>
+
+        <section class="story section" id="historia">
+            <div class="section-title">
+                <h2>Estudo virou propósito.</h2>
+            </div>
+            <div class="story-grid">
+                <div class="darkside-gallery">
+                    <figure class="team-photo"><img src="assets/timedarkside.jpg" alt="Marcos com o time DarkSide">
+                    </figure>
+                    <figure class="darkside-proof"><img src="assets/darkside.jpg" alt="Universidade DarkSide"></figure>
+                </div>
+                <div class="story-copy">
+                    <p class="lead">Eu me formei na Universidade DarkSide e transformei meu interesse por nutrição em um
+                        trabalho dedicado a pessoas reais.</p>
+                    <p>Estudei para entender muito mais do que dieta. Meu acompanhamento considera rotina, treino,
+                        objetivo, comportamento e aquilo que realmente é possível sustentar.</p>
+                    <div class="international">
+                        <img src="assets/brasil.png" alt="Representação do Brasil">
+                        <div><strong>Do Brasil para o mundo.</strong>
+                            <p>Hoje acompanho alunos no Brasil e também pessoas que vivem fora do país. A consultoria é
+                                online e foi estruturada para manter proximidade, estratégia e acompanhamento
+                                independentemente da distância.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="work-video">
+            <video autoplay muted loop playsinline>
+                <source src="assets/videotrabalhando.mp4" type="video/mp4">
+            </video>
+            <div class="work-video-overlay"></div>
+            <div class="work-video-copy">
+                <h2>O acompanhamento acontece nos detalhes.</h2>
+                <p>Análise, ajustes e decisões construídas para a rotina de cada aluno.</p>
+            </div>
+        </section>
+
+        <section class="comparisons section" id="resultados">
+            <div class="section-title light">
+                <h2>O processo aparece no espelho.</h2>
+                <p>Comparações que registram a evolução construída ao longo do acompanhamento.</p>
+            </div>
+            <div class="comparison-grid">
+                <figure><img src="assets/comparacao1.jpg" alt="Comparação de evolução"></figure>
+                <figure><img src="assets/comparacao2_treinoio.jpg" alt="Comparação registrada no acompanhamento">
+                </figure>
+            </div>
+        </section>
+
+        <section class="messages section" id="relatos">
+            <div class="section-title">
+                <h2>Meus alunos confiaram em mim, e esses foram os relatos.</h2>
+            </div>
+            <div class="messages-grid">
+                <figure><img src="assets/mensagem1.jpg" alt="Relato de aluno"></figure>
+                <figure><img src="assets/mensagem2.jpg" alt="Relato de aluno"></figure>
+                <figure><img src="assets/mensagem3.jpg" alt="Relato de aluno"></figure>
+                <figure><img src="assets/mensagem4.jpg" alt="Relato de aluno"></figure>
+                <figure><img src="assets/mensagem5.jpg" alt="Relato de aluno"></figure>
+            </div>
+        </section>
+
+        <section class="community section" id="comunidade">
+            <div class="community-copy">
+                <div class="community-heading">
+                    <img src="assets/logo.jpg" alt="Logo Marcos" class="community-logo">
+                    <h2>100% personalizado. Participe da comunidade.</h2>
+                </div>
+                <p>A consultoria conta com o <strong>Treino.io</strong>, um aplicativo que concentra seu acompanhamento
+                    em um só lugar. Nele, você acessa seu treino e sua dieta de forma organizada, acompanha o
+                    planejamento e mantém sua rotina sempre à mão.</p>
+                <p>Além do acompanhamento individual, quem faz parte da consultoria também entra em uma comunidade
+                    exclusiva de alunos, onde pode registrar seus marcos e compartilhar a própria evolução.</p>
+                <div class="community-features">
+                    <div><strong>Treino e dieta no aplicativo</strong>
+                        <p>Planejamento acessível no celular, com treino e dieta reunidos no mesmo ecossistema.</p>
+                    </div>
+                    <div><strong>Registre seus marcos</strong>
+                        <p>Use a comunidade dos alunos para compartilhar conquistas e registrar momentos importantes da
+                            sua evolução.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="app-showcase">
+                <figure><img src="assets/mainpage_treinoio.jpg" alt="Tela principal do Treino.io"></figure>
+                <figure><img src="assets/treino_treinoio.jpg" alt="Treino no Treino.io"></figure>
+                <figure><img src="assets/dieta_treinoio.jpg" alt="Dieta no Treino.io"></figure>
+            </div>
+            <div class="community-video"><video controls muted playsinline preload="metadata">
+                    <source src="assets/comunidade.mp4" type="video/mp4">
+                </video></div>
+        </section>
+
+        <section class="instagram section" id="instagram">
+            <div class="instagram-head">
+                <div class="section-title">
+                    <h2>Um pouco mais da rotina, dos estudos e do processo.</h2>
+                    <p>Conteúdo sobre nutrição, treino, corrida e tudo o que faz parte dessa construção.</p>
+                </div><img src="assets/instagram.jpg" alt="Instagram de Marcos">
+            </div>
+            <div class="posts-grid">
+                <figure><img src="assets/post1.jpg" alt="Post do Instagram"></figure>
+                <figure><img src="assets/post2.jpg" alt="Post do Instagram"></figure>
+                <figure><img src="assets/post3.jpg" alt="Post do Instagram"></figure>
+            </div>
+        </section>
+
+        <section class="cta" id="contato">
+            <video class="cta-video" autoplay muted loop playsinline>
+                <source src="assets/video_sorrindo.mp4" type="video/mp4">
+            </video>
+            <div class="cta-overlay"></div>
+            <div class="cta-content">
+                <h2>Quanto da sua próxima versão depende apenas de você começar?</h2>
+                <p>Se você chegou até aqui, talvez já saiba a resposta.</p><a class="cta-button"
+                    href="https://wa.me/5511944580790?text=Olá%20Marcos!%20Quero%20começar%20minha%20consultoria."
+                    target="_blank" rel="noopener noreferrer"><span>Pode Confiar. Vamos dar o Próximo Passo.</span></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-brand">
+            <img src="assets/logo.jpg" alt="Logo Marcos">
+            <p>Nutrição, performance e evolução com propósito.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Navegação do rodapé">
+            <a href="#inicio">Início</a>
+            <a href="#historia">Sobre mim</a>
+            <a href="#resultados">Resultados</a>
+            <a href="#relatos">Relatos</a>
+            <a href="#comunidade">Comunidade</a>
+            <a href="#instagram">Instagram</a>
+            <a href="#contato">Começar</a>
+        </nav>
+        <div class="footer-info">
+            <span class="footer-copy">
+                © <span id="year"></span> Marcos. Todos os direitos reservados.
+            </span>
+
+            <p class="footer-developer">
+                Site desenvolvido por
+                <a href="https://www.linkedin.com/in/gabriel-milanez-626615338/" target="_blank"
+                    rel="noopener noreferrer">
+                    Gabriel Milanez
+                </a>
+            </p>
+        </div>
+    </footer>
+    <a class="whatsapp-fixed"
+        href="https://wa.me/5511944580790?text=Olá%20Marcos!%20Quero%20saber%20mais%20sobre%20a%20consultoria."
+        target="_blank" rel="noopener noreferrer"><img src="assets/whatsapp.png" alt="WhatsApp"></a>
+    <script src="script.js"></script>
+</body>
+
+</html>
